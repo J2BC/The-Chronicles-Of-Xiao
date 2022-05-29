@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Enemies/SpawnSlime.gd" type="Script" id=1]
+[ext_resource path="res://Enemies/Slime.tscn" type="PackedScene" id=2]
+
+[node name="SpawnSlime" type="YSort"]
+script = ExtResource( 1 )
+slime = ExtResource( 2 )
+
+[node name="Timer" type="Timer" parent="."]
+
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

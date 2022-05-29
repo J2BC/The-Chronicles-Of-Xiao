@@ -1,0 +1,44 @@
+[gd_resource type="Resource" load_steps=11 format=2]
+
+[ext_resource path="res://Save/SaveGame.gd" type="Script" id=1]
+[ext_resource path="res://Items/Item.gd" type="Script" id=2]
+[ext_resource path="res://Items/Sword.png" type="Texture" id=3]
+[ext_resource path="res://Items/DiamondRing.png" type="Texture" id=4]
+[ext_resource path="res://Items/Potion.png" type="Texture" id=5]
+[ext_resource path="res://Items/TallShield.png" type="Texture" id=6]
+
+[sub_resource type="Resource" id=1]
+script = ExtResource( 2 )
+name = "Potion"
+texture = ExtResource( 5 )
+
+[sub_resource type="Resource" id=2]
+script = ExtResource( 2 )
+name = "Shield"
+texture = ExtResource( 6 )
+
+[sub_resource type="Resource" id=3]
+script = ExtResource( 2 )
+name = "Diamond Ring"
+texture = ExtResource( 4 )
+
+[sub_resource type="Resource" id=4]
+script = ExtResource( 2 )
+name = "Sword"
+texture = ExtResource( 3 )
+
+[resource]
+script = ExtResource( 1 )
+game_version = "1.0"
+data = {
+"inventory": {
+"items": [ SubResource( 1 ), null, SubResource( 2 ), null, null, SubResource( 3 ), null, null, SubResource( 4 ) ]
+},
+"player": {
+"stats": {
+"hearts": 4
+},
+"x_pos": -49.0,
+"y_pos": 549.501
+}
+}

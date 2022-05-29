@@ -1,0 +1,57 @@
+{
+	"events": [
+		{
+			"character": "character-1653749793.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hola me llamo Chema, te doy la bienvenida a la region de Spira."
+		},
+		{
+			"character": "character-1653749793.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Quieres que te cuente su historia?"
+		},
+		{
+			"choice": "Si",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1653749793.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Como te he dicho estamos en la region de Spira,\nCuenta la leyenda que aqui antiguamente se erguia un gran castillo,\nEste fue destruido por un gran mal llamado Sinh,\nDicen las malas lenguas que aun se puede ver a los fantasmas del pasado vagando cerca del rio y a quien se acerque al castillo encontrara una gran fortuna.\nA mi siempre me ha parecido un cuento, pero no me atrevo a acercarme mucho al castillo.\n[shake rate=5 level=10]¡Y si aparece algun fantasma![/shake]"
+		},
+		{
+			"choice": "No",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1653749793.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "De acuerdo prosigue con tu viaje."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1653749817.json",
+		"name": "chema_timeline-1"
+	}
+}

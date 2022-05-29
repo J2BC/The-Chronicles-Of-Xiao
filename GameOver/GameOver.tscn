@@ -1,0 +1,102 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Font/PixelRPG.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Font/PixelRPG.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://GameOver/GameOver.gd" type="Script" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 20
+outline_size = 2
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 10
+outline_size = 2
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 2 )
+
+[node name="GameOver" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.380392, 0, 0, 0.470588 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Menu" type="VBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -23.5
+margin_top = 32.0
+margin_right = 23.5
+margin_bottom = 72.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Salir" type="Button" parent="Menu"]
+margin_right = 47.0
+margin_bottom = 16.0
+custom_colors/font_color_hover = Color( 0.678431, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "Salir"
+flat = true
+
+[node name="Cerrar" type="Button" parent="Menu"]
+margin_top = 20.0
+margin_right = 47.0
+margin_bottom = 36.0
+custom_colors/font_color_hover = Color( 0.678431, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "Cerrar"
+flat = true
+
+[node name="GameOver" type="Label" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -56.0
+margin_top = 36.0
+margin_right = 56.0
+margin_bottom = 57.0
+custom_fonts/font = SubResource( 1 )
+text = "GameOver"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="No cry" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -20.5
+margin_top = -18.5
+margin_right = 20.5
+margin_bottom = 6.5
+custom_fonts/font = SubResource( 2 )
+text = "no cry
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Menu/Salir" to="." method="_on_Salir_pressed"]
+[connection signal="pressed" from="Menu/Cerrar" to="." method="_on_Cerrar_pressed"]

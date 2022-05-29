@@ -1,0 +1,109 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Font/PixelRPG.tres" type="DynamicFont" id=1]
+[ext_resource path="res://MainMenu/thumb-1920-373690.jpg" type="Texture" id=2]
+[ext_resource path="res://MainMenu/MainMenu.gd" type="Script" id=3]
+[ext_resource path="res://MainMenu/titulo.png" type="Texture" id=4]
+[ext_resource path="res://Font/PixelRPG.ttf" type="DynamicFontData" id=5]
+[ext_resource path="res://MainMenu/1j+ojFVDOMkX9Wytexe43D6khv6CqRZHnB3NwXs1M3EMoAJtliQlj...pr8vU5.png" type="Texture" id=6]
+[ext_resource path="res://MainMenu/cc.png" type="Texture" id=7]
+
+[sub_resource type="DynamicFont" id=1]
+size = 5
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 5 )
+
+[node name="MainMenu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 160, 90 )
+scale = Vector2( 0.167157, 0.166487 )
+texture = ExtResource( 2 )
+
+[node name="Titulo" type="Sprite" parent="."]
+position = Vector2( 163.328, 64.3918 )
+scale = Vector2( 0.203909, 0.184293 )
+texture = ExtResource( 4 )
+
+[node name="Menu" type="VBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -49.5
+margin_top = 9.0
+margin_right = 49.5
+margin_bottom = 79.0
+custom_constants/separation = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Partida_Nueva" type="Button" parent="Menu"]
+margin_right = 99.0
+margin_bottom = 16.0
+custom_colors/font_color_hover = Color( 0.678431, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "Nueva Partida"
+flat = true
+
+[node name="Cargar_Partida" type="Button" parent="Menu"]
+margin_top = 18.0
+margin_right = 99.0
+margin_bottom = 34.0
+custom_colors/font_color_hover = Color( 0.678431, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "Cargar Partida"
+flat = true
+
+[node name="Borrar_Partida" type="Button" parent="Menu"]
+margin_top = 36.0
+margin_right = 99.0
+margin_bottom = 52.0
+custom_colors/font_color_hover = Color( 0.678431, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "Borrar Partida"
+flat = true
+
+[node name="Cerrar" type="Button" parent="Menu"]
+margin_top = 54.0
+margin_right = 99.0
+margin_bottom = 70.0
+custom_colors/font_color_hover = Color( 0.678431, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "Cerrar"
+flat = true
+
+[node name="Creadores" type="Sprite" parent="."]
+position = Vector2( 299.053, 20.5439 )
+scale = Vector2( 0.271115, 0.233563 )
+texture = ExtResource( 6 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 2.78412
+margin_top = 172.057
+margin_right = 199.784
+margin_bottom = 186.057
+custom_fonts/font = SubResource( 1 )
+text = "2022 J2BC. Todos los derechos reservados"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 303.337, 173.897 )
+scale = Vector2( 0.0177141, 0.0186121 )
+texture = ExtResource( 7 )
+
+[connection signal="pressed" from="Menu/Partida_Nueva" to="." method="_on_Partida_Nueva_pressed"]
+[connection signal="pressed" from="Menu/Cargar_Partida" to="." method="_on_Cargar_Partida_pressed"]
+[connection signal="pressed" from="Menu/Borrar_Partida" to="." method="_on_Borrar_Partida_pressed"]
+[connection signal="pressed" from="Menu/Cerrar" to="." method="_on_Cerrar_pressed"]

@@ -1,0 +1,82 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Inventario/InventoryDisplay.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Font/PixelRPG.tres" type="DynamicFont" id=2]
+
+[node name="Inventory" type="ColorRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 0.686275 )
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -0.297298
+margin_bottom = -0.297302
+mouse_filter = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer"]
+margin_left = 41.0
+margin_top = 43.0
+margin_right = 278.0
+margin_bottom = 137.0
+custom_constants/separation = 68
+
+[node name="InventoryDisplay" parent="CenterContainer/HBoxContainer" groups=["Saved"] instance=ExtResource( 1 )]
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 54.0
+margin_bottom = 94.0
+
+[node name="Menu Guardar Partida" type="VBoxContainer" parent="CenterContainer/HBoxContainer"]
+margin_left = 122.0
+margin_right = 237.0
+margin_bottom = 94.0
+rect_pivot_offset = Vector2( -197, -108.276 )
+custom_constants/separation = 10
+
+[node name="Guardar" type="Button" parent="CenterContainer/HBoxContainer/Menu Guardar Partida"]
+margin_right = 115.0
+margin_bottom = 16.0
+custom_colors/font_color_hover = Color( 0.678431, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 2 )
+text = "Guardar"
+flat = true
+
+[node name="Guardar y Salir" type="Button" parent="CenterContainer/HBoxContainer/Menu Guardar Partida"]
+margin_top = 26.0
+margin_right = 115.0
+margin_bottom = 42.0
+custom_colors/font_color_hover = Color( 0.678431, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 2 )
+text = "Guardar y Salir"
+flat = true
+
+[node name="Guardar y Cerrar" type="Button" parent="CenterContainer/HBoxContainer/Menu Guardar Partida"]
+margin_top = 52.0
+margin_right = 115.0
+margin_bottom = 68.0
+custom_colors/font_color_hover = Color( 0.678431, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 2 )
+text = "Guardar y Cerrar"
+flat = true
+
+[node name="Cerrar" type="Button" parent="CenterContainer/HBoxContainer/Menu Guardar Partida"]
+margin_top = 78.0
+margin_right = 115.0
+margin_bottom = 94.0
+custom_colors/font_color_hover = Color( 0.678431, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 2 )
+text = "Cerrar"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
