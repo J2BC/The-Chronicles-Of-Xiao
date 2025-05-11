@@ -46,7 +46,10 @@ Este proyecto es una muestra del potencial de expansión que tiene el juego, con
 
 ## 📸 Capturas de pantalla
 
-    (Aquí puedes insertar imágenes del juego para mostrar cómo se ve. Usa enlaces si ya están subidas o súbelas al repositorio.)
+    ![image](https://github.com/user-attachments/assets/9ba0ab60-d143-42b7-ab95-2ab2473c927b)
+    ![image](https://github.com/user-attachments/assets/97a19940-7c64-40f8-9606-5610052be6df)
+    ![image](https://github.com/user-attachments/assets/8c4c4fea-31f0-4880-b24a-57104da30911)
+    ![image](https://github.com/user-attachments/assets/3711aa83-703c-4bbd-9724-fd2f579c9731)
 
 ## 🚀 Cómo jugar
 
@@ -66,6 +69,6 @@ Este proyecto es una muestra del potencial de expansión que tiene el juego, con
 
     José María Becerra Marín – Programación, diseño de personajes, documentación
     
-###📜 Licencia
+### 📜 Licencia
 
 Este proyecto está bajo la licencia GPL
