@@ -24,11 +24,11 @@ En esta demo, el jugador puede explorar un mapa abierto, interactuar con NPCs, c
 Este proyecto es una muestra del potencial de expansión que tiene el juego, con muchas mecánicas básicas ya implementadas y una clara inspiración en clásicos del género.
     
 🕹️ Controles
-Tecla	Acción
-⬅️⬆️⬇️➡️	Mover al personaje
-Z	Rodar (desplazamiento rápido)
-X	Atacar con el arma
-E	Abrir/cerrar el inventario
+    Tecla	Acción
+    ⬅️⬆️⬇️➡️	Mover al personaje
+    Z	Rodar (desplazamiento rápido)
+    X	Atacar con el arma
+    E	Abrir/cerrar el inventario
 
 📎 Características principales
 
@@ -50,7 +50,7 @@ E	Abrir/cerrar el inventario
 
     Clona este repositorio:
 
-    git clone https://github.com/tuusuario/tu-repo.git
+    git clone J2BC/The-Chronicles-Of-Xiao
 
     Abre el proyecto o ejecutalo en Godot 3.4.4
 
