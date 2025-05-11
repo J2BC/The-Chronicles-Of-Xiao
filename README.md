@@ -1,9 +1,9 @@
-🎮 Proyecto Final de Curso – The Chronicles of Xiao
+#🎮 Proyecto Final de Curso – The Chronicles of Xiao
 
     Desarrollado con Godot Engine 3.4.4
     Autores: Juan Carlos Carretero Roldán y José María Becerra Marín
 
-📝 Descripción
+##📝 Descripción
 
 The Chronicles of Xiao es un juego de acción y aventura (Action RPG) en 2D con estilo pixel art, inspirado en la saga The Legend of Zelda. Esta versión beta ha sido desarrollada como proyecto final de curso por Juan Carlos Carretero Roldán y José María Becerra Marín utilizando Godot Engine 3.4.4.
 
@@ -23,14 +23,16 @@ En esta demo, el jugador puede explorar un mapa abierto, interactuar con NPCs, c
 
 Este proyecto es una muestra del potencial de expansión que tiene el juego, con muchas mecánicas básicas ya implementadas y una clara inspiración en clásicos del género.
     
-🕹️ Controles
-    Tecla	Acción
-    ⬅️⬆️⬇️➡️	Mover al personaje
-    Z	Rodar (desplazamiento rápido)
-    X	Atacar con el arma
-    E	Abrir/cerrar el inventario
+## 🕹️ Controles
 
-📎 Características principales
+| Tecla | Acción                        |
+|-------|-------------------------------|
+| ⬅️⬆️⬇️➡️ | Mover al personaje             |
+| `Z`   | Rodar (desplazamiento rápido) |
+| `X`   | Atacar con el arma            |
+| `E`   | Abrir/cerrar el inventario    |
+
+##📎 Características principales
 
     ⚙️ Motor utilizado: Godot Engine 3.4.4
 
@@ -42,11 +44,11 @@ Este proyecto es una muestra del potencial de expansión que tiene el juego, con
 
     🌍 Idioma: Español
 
-📸 Capturas de pantalla
+##📸 Capturas de pantalla
 
     (Aquí puedes insertar imágenes del juego para mostrar cómo se ve. Usa enlaces si ya están subidas o súbelas al repositorio.)
 
-🚀 Cómo jugar
+##🚀 Cómo jugar
 
     Clona este repositorio:
 
@@ -58,12 +60,12 @@ Este proyecto es una muestra del potencial de expansión que tiene el juego, con
 
     ¡A jugar!
 
-🙌 Créditos
+##🙌 Créditos
 
     Juan Carlos Carretero Roldán – Programación, diseño de niveles, documentación
 
     José María Becerra Marín – Programación, diseño de personajes, documentación
     
-📜 Licencia
+###📜 Licencia
 
 Este proyecto está bajo la licencia GPL
