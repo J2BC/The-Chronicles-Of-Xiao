@@ -1,4 +1,4 @@
-# 🎮 Proyecto Final de Curso – The Chronicles of Xiao
+# 🎮 Proyecto Final de Curso - El Puig Castellar DAM 2022 – The Chronicles of Xiao
 
     Desarrollado con Godot Engine 3.4.4
     Autores: Juan Carlos Carretero Roldán y José María Becerra Marín
