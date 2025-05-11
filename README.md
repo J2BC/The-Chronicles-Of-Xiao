@@ -46,7 +46,7 @@ Este proyecto es una muestra del potencial de expansión que tiene el juego, con
 
 ## 📸 Capturas de pantalla
 
-### Vista general del mapa
+### Menu Principal
 ![image](https://github.com/user-attachments/assets/9ba0ab60-d143-42b7-ab95-2ab2473c927b)
 
 ### Combate contra enemigos
