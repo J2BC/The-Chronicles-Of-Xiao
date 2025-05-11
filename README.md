@@ -52,10 +52,10 @@ Este proyecto es una muestra del potencial de expansión que tiene el juego, con
 ### Combate contra enemigos
 ![image](https://github.com/user-attachments/assets/97a19940-7c64-40f8-9606-5610052be6df)
 
-### Inventario del jugador
+### Interacción con NPCs
 ![image](https://github.com/user-attachments/assets/8c4c4fea-31f0-4880-b24a-57104da30911)
 
-### Interacción con NPCs
+### Inventario del jugador
 ![image](https://github.com/user-attachments/assets/3711aa83-703c-4bbd-9724-fd2f579c9731)
 
 ## 🚀 Cómo jugar
