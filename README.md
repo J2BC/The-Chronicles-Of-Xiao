@@ -34,7 +34,7 @@ Este proyecto es una muestra del potencial de expansión que tiene el juego, con
 
 ## 📎 Características principales
 
-    ⚙️ Motor utilizado: Godot Engine 3.4.4
+    ⚙️ Motor utilizado: ![Godot Engine 3.4.4](https://godotengine.org/download/archive/3.4.4-stable)
 
     🎨 Gráficos 2D
 
